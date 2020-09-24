@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+
+}
+
+
+header{
+    background-color: #4b302b;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav{
+    float: right;
+    margin-top: 5px;
+   
+}
+
+
+header li{
+    display: inline;
+    
+
+}
+
+nav > ul > li >a {
+padding: 5px 20px;
+text-decoration: none;
+color: #0e221f;
+background-color: #6bc268;
+border-radius: 30px;
+display: inline;
+
+
+}
+
+nav > ul > li > a:hover{
+    background-color: rgb(251, 241, 214);
+
+}
+
+.images{
+    height: 95vh;
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.835) , hsla(17, 23%, 46%, 0.87)), url("./images.jpg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 95%, 0 100%);
+
+}
+
+welkom{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 30%;
+}
+
+.side-images {
+    width: 30%;
+
+}
+
+#home,
+#jobb,
+#about,
+#contact {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+  
+
+}
+
+
+#jobb{
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+
+#about{
+    margin-top: 1.9em;
+
+}
+
+.article-home,
+.jobb-sökande,
+.article-about,
+.article-contact,
+.pdf-container {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+    background-color: #e9b795;
+
+}
+.pdf-container {
+    background-color: #494949;
+}
+
+.article-home p {
+    padding: 15px 0;
+}
+
+
+.article-home h2 {
+    padding-top: 20px;
+}
+
+
+.picture-description-right {
+    text-align: right;
+    padding-right: 15%;
+    font-style: italic;
+    margin: 3px 0 15px 0;
+
+}
+
+.picture-description-left {
+    text-align: left;
+    padding-left: 15%;
+    font-style: italic;
+    margin: 3px 0 15px 0;
+
+}
+
+
+.jobb-sökande p {
+    margin-top: 1em;
+
+
+}
+
+
+.pdf{
+    height: 80vh;
+    width: 45vw;
+
+}
+
+
+.article-about p, 
+.article-about h2 {
+padding-bottom: 1.2em;
+
+}
+
+.contact-list > {
+    list-style-type: none;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0;
+
+}
+
+input {
+margin: 5px 0;
+padding:  10px;
+
+}
+
+[type=submit] {
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #6bc268;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+[type=submit] :hover {
+background-color: rgb(200,241,253);
+    cursor: pointer;
+
+}
+    footer{
+        height: 35vh;
+        background-image: linear-gradient(to top, hsla (0, 0%, 0%, 0658) hsla(17, 19%, 36%, 0.747));
+        url("./images.jpg");
+        background-size: cover;
+        background-position: top;
+        color: rgb(235,235,235);
+        text-align: center;
+        margin: auto auto;
+
+    }
+
+
+    footer p {
+        padding: 1em;
+        
+    }
